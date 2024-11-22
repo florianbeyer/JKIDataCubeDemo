@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: DemoPhaseWCS
+title: JKIDataCubeDemo
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -16,20 +16,20 @@ authors:
 identifiers:
   - type: doi
     value: 10.5281/ZENODO.7893966
-repository-code: 'https://gitea.julius-kuehn.de/florian.beyer/DemoPhaseWCS'
-url: 'https://gitea.julius-kuehn.de/florian.beyer/DemoPhaseWCS'
+repository-code: 'https://github.com/florianbeyer/JKIDataCubeDemo.git'
+url: 'https://github.com/florianbeyer/JKIDataCubeDemo'
 abstract: >-
-  This repo shows, how to query the Data Cubes provided by
-  the JKI.
+  This repo shows, how to query the Data Cubes provided by the JKI.
 keywords:
   - OGC
   - WCS
+  - WCPS
   - Python
   - Juypter
   - Sentinel-2
   - Precipitation
   - Phenology
-license: GPL-3.0
+license: MIT
 commit: 70bafc0c0831629e3625493113fd88a6af33dd3e
-version: '1.4'
-date-released: '2024-04-09'
+version: '1.6'
+date-released: '2024-11-22'
