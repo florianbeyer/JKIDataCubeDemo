@@ -21,7 +21,7 @@
             "startDate": "2021-01-15"
         }
     ],
-    "codeRepository": "https://gitea.julius-kuehn.de/florian.beyer/DemoPhaseWCS.git",
+    "codeRepository": "https://github.com/florianbeyer/JKIDataCubeDemo.git",
     "contributor": [
         {
             "id": "_:contributor_1",
@@ -42,9 +42,9 @@
             "givenName": "Markus"
         }
     ],
-    "dateCreated": "2024-04-09",
-    "dateModified": "2024-04-09",
-    "datePublished": "2024-04-09",
+    "dateCreated": "2024-11-22",
+    "dateModified": "2024-11-22",
+    "datePublished": "2024-11-22",
     "description": "This repo shows, how to query the Data Cubes provided by the JKI.",
     "downloadUrl": "https://gitea.julius-kuehn.de/florian.beyer/DemoPhaseWCS/archive/v1.4.zip",
     "funder": {
@@ -57,8 +57,8 @@
         "OGC Web Services",
         "Agriculture"
     ],
-    "license": "https://spdx.org/licenses/GPL-3.0",
-    "name": " DemoPhaseWCS",
+    "license": "https://spdx.org/licenses/MIT",
+    "name": "JKIDataCubeDemo",
     "programmingLanguage": "Python 3",
     "releaseNotes": "everything changed to JKI datacube",
     "softwareRequirements": [
@@ -72,6 +72,6 @@
     "version": "1.4",
     "developmentStatus": "concept",
     "isSourceCodeOf": "standalone script",
-    "issueTracker": "https://gitea.julius-kuehn.de/florian.beyer/DemoPhaseWCS/issues",
+    "issueTracker": "https://github.com/florianbeyer/JKIDataCubeDemo/issues",
     "referencePublication": "https://doi.org/10.31223/X5D37T"
 }
