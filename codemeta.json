@@ -1,0 +1,77 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Agriculture",
+    "author": [
+        {
+            "id": "https://orcid.org/0000-0002-9203-320X",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Julius Kuehn Institute"
+            },
+            "email": "florian.beyer@julius-kuehn.de",
+            "familyName": "Beyer",
+            "givenName": "Florian"
+        },
+        {
+            "type": "Role",
+            "schema:author": "https://orcid.org/0000-0002-9203-320X",
+            "roleName": "Scientist",
+            "startDate": "2021-01-15"
+        }
+    ],
+    "codeRepository": "https://gitea.julius-kuehn.de/florian.beyer/DemoPhaseWCS.git",
+    "contributor": [
+        {
+            "id": "_:contributor_1",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Julius Kuehn Institute"
+            },
+            "email": "marvin.dierks@julius-kuehn.de",
+            "familyName": "Dierks",
+            "givenName": "Marvin"
+        },
+        {
+            "id": "https://orcid.org/0000-0002-1918-7747",
+            "type": "Person",
+            "email": "markus.moeller@julius-kuehn.de",
+            "familyName": "Moeller",
+            "givenName": "Markus"
+        }
+    ],
+    "dateCreated": "2024-04-09",
+    "dateModified": "2024-04-09",
+    "datePublished": "2024-04-09",
+    "description": "This repo shows, how to query the Data Cubes provided by the JKI.",
+    "downloadUrl": "https://gitea.julius-kuehn.de/florian.beyer/DemoPhaseWCS/archive/v1.4.zip",
+    "funder": {
+        "type": "Organization",
+        "name": "Julius  Kuehn Institute"
+    },
+    "identifier": "10.5281/zenodo.10377454",
+    "keywords": [
+        "Geoinformatics",
+        "OGC Web Services",
+        "Agriculture"
+    ],
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "name": " DemoPhaseWCS",
+    "programmingLanguage": "Python 3",
+    "releaseNotes": "everything changed to JKI datacube",
+    "softwareRequirements": [
+        "- script was developed with python 3.12.1",
+        "required Packages:",
+        "- datetime, io, requests (standard packages)",
+        "- numpy, matplotlib",
+        "- geopandas, rasterio",
+        "- xmltodict, tqdm, (ipyleaflet)"
+    ],
+    "version": "1.4",
+    "developmentStatus": "concept",
+    "isSourceCodeOf": "standalone script",
+    "issueTracker": "https://gitea.julius-kuehn.de/florian.beyer/DemoPhaseWCS/issues",
+    "referencePublication": "https://doi.org/10.31223/X5D37T"
+}
