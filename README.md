@@ -1,5 +1,7 @@
 # WC(P)S demo of JKI Datacubes
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14215012.svg)](https://doi.org/10.5281/zenodo.14215012) [![Version](https://img.shields.io/badge/version-1.6.1-blue)](https://github.com/florianbeyer/JKIDataCubeDemo/releases/tag/V1.6.1) [![Findable Accessible Interoperable Reusable](https://img.shields.io/badge/research%20code%20mangement-FAIR-green)](https://doi.org/10.1038/sdata.2016.18)
+
 
 ## Introduction
 
