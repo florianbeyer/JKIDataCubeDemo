@@ -32,9 +32,9 @@ The Juypter notebook demonstrates the following:
 
 ```plaintext
 ├── data/                          # example geo vector files
-│   ├── bayern.geojson             # example field in Bavaria (Germany)
-│   ├── niedersachsen.geojson      # example field in Lower Saxony (Germany)
-│   ├── thueringen_large.geojson   # larger agricultural area in Thuringia  (Germany)
+│   ├── bavaria.geojson            # example field in Bavaria (Germany)
+│   ├── lower_saxony.geojson       # example field in Lower Saxony (Germany)
+│   ├── thuringia_large.geojson    # larger agricultural area in Thuringia  (Germany)
 │   └── winterwheat2020.geojson    # winter wheat field from 2020 in Lower Saxony (Germany)
 ├── functions/                     # required functions used in juypter notebook
 │   ├── func_datacube_DWD.py       # main function to query precipitation data cube

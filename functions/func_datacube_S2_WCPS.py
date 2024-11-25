@@ -2,6 +2,22 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 def wcps_savi(cube, polygon, dates, user, pw, host, printout=True, query_url=True):
+    """This function generates a WCPS query for the JKI Datacube. 
+    Sentinel-2 images are searched for a specific date and a specific area and the vegetation index SAVI is calculated.
+
+    Args:
+        cube (string): name of the datacube
+        polygon (string): Polygon vertex coordinates as WKT (https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry)
+        dates (list): List of dates (strings) as format 'YYYY-MM-DD'
+        user (string): username
+        pw (string): password
+        host (string): host address of the datacube
+        printout (bool, optional): get information about the process. Defaults to True.
+        query_url (bool, optional): get the wcps query. Defaults to True.
+
+    Returns:
+        response (requests.models.Response): byte-encoded multi-layered GeoTiff (every band represents the SAVI of a specific date).
+    """
 
     string1 = f'''
     for $c in ({cube})
