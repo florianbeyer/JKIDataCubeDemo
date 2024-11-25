@@ -15,7 +15,7 @@ authors:
     orcid: 'https://orcid.org/0000-0002-9203-320X'
 identifiers:
   - type: doi
-    value: 10.5281/ZENODO.7893966
+    value: 10.5281/zenodo.14215012
 repository-code: 'https://github.com/florianbeyer/JKIDataCubeDemo.git'
 url: 'https://github.com/florianbeyer/JKIDataCubeDemo'
 abstract: >-
